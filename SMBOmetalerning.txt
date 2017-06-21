@@ -1,0 +1,1081 @@
+1id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 2.173582447138025
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.0006685392459187188
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.0011288364014229225
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'nystroem_sampler'
+  preprocessor:nystroem_sampler:coef0, Value: 0.7898652648314515
+  preprocessor:nystroem_sampler:gamma, Value: 0.016614149817836592
+  preprocessor:nystroem_sampler:kernel, Value: 'sigmoid'
+  preprocessor:nystroem_sampler:n_components, Value: 6441
+  rescaling:__choice__, Value: 'standardize'
+2id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'False'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 1.921193446735365
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 3
+  classifier:random_forest:min_samples_split, Value: 7
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.1855794061799157
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'euclidean'
+  preprocessor:feature_agglomeration:linkage, Value: 'ward'
+  preprocessor:feature_agglomeration:n_clusters, Value: 235
+  preprocessor:feature_agglomeration:pooling_func, Value: 'mean'
+  rescaling:__choice__, Value: 'none'
+3id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 9131.136282024216
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.06479004511822681
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'min/max'
+4id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'passive_aggressive'
+  classifier:passive_aggressive:C, Value: 0.0018057707469332856
+  classifier:passive_aggressive:fit_intercept, Constant: 'True'
+  classifier:passive_aggressive:loss, Value: 'squared_hinge'
+  classifier:passive_aggressive:n_iter, Value: 572
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.17556429026221484
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'nystroem_sampler'
+  preprocessor:nystroem_sampler:gamma, Value: 0.35884375549922065
+  preprocessor:nystroem_sampler:kernel, Value: 'rbf'
+  preprocessor:nystroem_sampler:n_components, Value: 481
+  rescaling:__choice__, Value: 'standardize'
+5id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME'
+  classifier:adaboost:learning_rate, Value: 0.08921861937738111
+  classifier:adaboost:max_depth, Value: 8
+  classifier:adaboost:n_estimators, Value: 473
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.46025920786341173
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'none'
+6id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 62.21750028494345
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.0002178180133457927
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.028777961041830738
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 3
+  preprocessor:polynomial:include_bias, Value: 'False'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+7id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME.R'
+  classifier:adaboost:learning_rate, Value: 0.13921281697970783
+  classifier:adaboost:max_depth, Value: 4
+  classifier:adaboost:n_estimators, Value: 481
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'min/max'
+8id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'passive_aggressive'
+  classifier:passive_aggressive:C, Value: 0.0036975653885940544
+  classifier:passive_aggressive:fit_intercept, Constant: 'True'
+  classifier:passive_aggressive:loss, Value: 'hinge'
+  classifier:passive_aggressive:n_iter, Value: 326
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'kitchen_sinks'
+  preprocessor:kitchen_sinks:gamma, Value: 0.6227804363658538
+  preprocessor:kitchen_sinks:n_components, Value: 1821
+  rescaling:__choice__, Value: 'normalize'
+9id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 1.0
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 1
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.01
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'min/max'
+10id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 1.1801039413134438
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.0022090377635951867
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.005927790483915612
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'standardize'
+11id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'passive_aggressive'
+  classifier:passive_aggressive:C, Value: 5.026962382477094e-05
+  classifier:passive_aggressive:fit_intercept, Constant: 'True'
+  classifier:passive_aggressive:loss, Value: 'hinge'
+  classifier:passive_aggressive:n_iter, Value: 713
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'nystroem_sampler'
+  preprocessor:nystroem_sampler:kernel, Value: 'cosine'
+  preprocessor:nystroem_sampler:n_components, Value: 4113
+  rescaling:__choice__, Value: 'normalize'
+12id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.7129561445167657
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 5
+  classifier:gradient_boosting:max_features, Value: 3.93371407131337
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 20
+  classifier:gradient_boosting:min_samples_split, Value: 4
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 0.5706975618082643
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.015787599946780754
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'min/max'
+13id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 0.3099281521096013
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.06556975010822326
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.00470215321782562
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'euclidean'
+  preprocessor:feature_agglomeration:linkage, Value: 'average'
+  preprocessor:feature_agglomeration:n_clusters, Value: 283
+  preprocessor:feature_agglomeration:pooling_func, Value: 'median'
+  rescaling:__choice__, Value: 'min/max'
+14id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'False'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.0930229314278646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 9
+  classifier:random_forest:min_samples_split, Value: 19
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.068332896123793
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'False'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 1.0695179329108082
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 3
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 5
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'min/max'
+15id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME.R'
+  classifier:adaboost:learning_rate, Value: 0.23845428108337907
+  classifier:adaboost:max_depth, Value: 3
+  classifier:adaboost:n_estimators, Value: 309
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.004810656288877152
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 3
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'standardize'
+16id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'False'
+  classifier:extra_trees:criterion, Value: 'entropy'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 3.4037066291967126
+  classifier:extra_trees:min_samples_leaf, Value: 11
+  classifier:extra_trees:min_samples_split, Value: 20
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.0004586087763800354
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+17id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'sgd'
+  classifier:sgd:alpha, Value: 0.0006027069276923983
+  classifier:sgd:average, Value: 'True'
+  classifier:sgd:eta0, Value: 0.0637712077279468
+  classifier:sgd:fit_intercept, Constant: 'True'
+  classifier:sgd:learning_rate, Value: 'invscaling'
+  classifier:sgd:loss, Value: 'log'
+  classifier:sgd:n_iter, Value: 138
+  classifier:sgd:penalty, Value: 'l2'
+  classifier:sgd:power_t, Value: 0.013979219913376584
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.12557340023522767
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'euclidean'
+  preprocessor:feature_agglomeration:linkage, Value: 'complete'
+  preprocessor:feature_agglomeration:n_clusters, Value: 296
+  preprocessor:feature_agglomeration:pooling_func, Value: 'median'
+  rescaling:__choice__, Value: 'min/max'
+18id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME'
+  classifier:adaboost:learning_rate, Value: 1.2306208006800998
+  classifier:adaboost:max_depth, Value: 6
+  classifier:adaboost:n_estimators, Value: 499
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'True'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'entropy'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 3.5347851525007146
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 6
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 8
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'standardize'
+19id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'sgd'
+  classifier:sgd:alpha, Value: 0.0002011208878338422
+  classifier:sgd:average, Value: 'False'
+  classifier:sgd:eta0, Value: 0.0812309539678548
+  classifier:sgd:fit_intercept, Constant: 'True'
+  classifier:sgd:l1_ratio, Value: 0.49756924007684844
+  classifier:sgd:learning_rate, Value: 'invscaling'
+  classifier:sgd:loss, Value: 'hinge'
+  classifier:sgd:n_iter, Value: 554
+  classifier:sgd:penalty, Value: 'elasticnet'
+  classifier:sgd:power_t, Value: 0.2567923580475304
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.0007915092939712602
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'nystroem_sampler'
+  preprocessor:nystroem_sampler:coef0, Value: -0.6384046151685252
+  preprocessor:nystroem_sampler:degree, Value: 3
+  preprocessor:nystroem_sampler:gamma, Value: 0.22795987796995726
+  preprocessor:nystroem_sampler:kernel, Value: 'poly'
+  preprocessor:nystroem_sampler:n_components, Value: 3207
+  rescaling:__choice__, Value: 'none'
+20id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'qda'
+  classifier:qda:reg_param, Value: 9.284928341343884
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.15973168347756866
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'kitchen_sinks'
+  preprocessor:kitchen_sinks:gamma, Value: 1.0504384005484382
+  preprocessor:kitchen_sinks:n_components, Value: 235
+  rescaling:__choice__, Value: 'min/max'
+21id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 0.5815868776595028
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.05261321190581748
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+22id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.20883213948290555
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 5
+  classifier:gradient_boosting:max_features, Value: 3.950232147023257
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 2
+  classifier:gradient_boosting:min_samples_split, Value: 12
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 0.7000722592104036
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.20504937335658277
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'min/max'
+23id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.10595850641686415
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 6
+  classifier:gradient_boosting:max_features, Value: 4.073047765066454
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 4
+  classifier:gradient_boosting:min_samples_split, Value: 14
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 0.3730003562382372
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.0007311404576904489
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'True'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'entropy'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 1.7764018125840484
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 4
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 4
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'standardize'
+24id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'passive_aggressive'
+  classifier:passive_aggressive:C, Value: 0.7365028305861986
+  classifier:passive_aggressive:fit_intercept, Constant: 'True'
+  classifier:passive_aggressive:loss, Value: 'hinge'
+  classifier:passive_aggressive:n_iter, Value: 116
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'True'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 3.5951949623613824
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 6
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 5
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'normalize'
+25id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 7706.729146885712
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.0011423082967112733
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'kernel_pca'
+  preprocessor:kernel_pca:gamma, Value: 0.004581502595708079
+  preprocessor:kernel_pca:kernel, Value: 'rbf'
+  preprocessor:kernel_pca:n_components, Value: 136
+  rescaling:__choice__, Value: 'min/max'
+26id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 2253.019328043348
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.0011555993445762113
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 3
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'min/max'
+27id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 110.1041991637
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.0008769682090480264
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.0005906299349754449
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'kitchen_sinks'
+  preprocessor:kitchen_sinks:gamma, Value: 0.5976826540225102
+  preprocessor:kitchen_sinks:n_components, Value: 9295
+  rescaling:__choice__, Value: 'min/max'
+28id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 1.0
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 1
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.01
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'False'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 1.0
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 1
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 2
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'min/max'
+29id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 34.52330718742751
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.010305332230734165
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.00012464201046582862
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+30id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'True'
+  classifier:extra_trees:criterion, Value: 'gini'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 1.6767670017706682
+  classifier:extra_trees:min_samples_leaf, Value: 1
+  classifier:extra_trees:min_samples_split, Value: 2
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.0008306452347117062
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'False'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 4.071891353915662
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 8
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 16
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'min/max'
+31id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.20066795319926028
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 7
+  classifier:gradient_boosting:max_features, Value: 3.9325869489731167
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 7
+  classifier:gradient_boosting:min_samples_split, Value: 11
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 0.9976532055747943
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.00046199690730130277
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'min/max'
+32id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME.R'
+  classifier:adaboost:learning_rate, Value: 0.010294487787548573
+  classifier:adaboost:max_depth, Value: 10
+  classifier:adaboost:n_estimators, Value: 317
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'kernel_pca'
+  preprocessor:kernel_pca:coef0, Value: 0.10356707689993638
+  preprocessor:kernel_pca:degree, Value: 2
+  preprocessor:kernel_pca:gamma, Value: 0.0055625300454173725
+  preprocessor:kernel_pca:kernel, Value: 'poly'
+  preprocessor:kernel_pca:n_components, Value: 506
+  rescaling:__choice__, Value: 'none'
+33id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'False'
+  classifier:extra_trees:criterion, Value: 'gini'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 4.2768966315736625
+  classifier:extra_trees:min_samples_leaf, Value: 3
+  classifier:extra_trees:min_samples_split, Value: 8
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'True'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 4.291605934335991
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 4
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 3
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'normalize'
+34id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.4120597789233855
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 3
+  classifier:gradient_boosting:max_features, Value: 4.758121621535983
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 16
+  classifier:gradient_boosting:min_samples_split, Value: 6
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 0.9698657674324143
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.45394720185957155
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'False'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 2.9979113303712377
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 5
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 17
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'standardize'
+35id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME'
+  classifier:adaboost:learning_rate, Value: 0.08921861937738111
+  classifier:adaboost:max_depth, Value: 8
+  classifier:adaboost:n_estimators, Value: 473
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.46025920786341173
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'True'
+  rescaling:__choice__, Value: 'standardize'
+36id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'False'
+  classifier:extra_trees:criterion, Value: 'entropy'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 1.2668700009828038
+  classifier:extra_trees:min_samples_leaf, Value: 10
+  classifier:extra_trees:min_samples_split, Value: 15
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.07298038576229827
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'False'
+  preprocessor:polynomial:interaction_only, Value: 'True'
+  rescaling:__choice__, Value: 'min/max'
+37id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME'
+  classifier:adaboost:learning_rate, Value: 0.320190941684566
+  classifier:adaboost:max_depth, Value: 3
+  classifier:adaboost:n_estimators, Value: 178
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'min/max'
+38id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 16.445846112636396
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 5.031987397253124e-05
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.018681895366958703
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'nystroem_sampler'
+  preprocessor:nystroem_sampler:gamma, Value: 0.2781157712712954
+  preprocessor:nystroem_sampler:kernel, Value: 'rbf'
+  preprocessor:nystroem_sampler:n_components, Value: 8238
+  rescaling:__choice__, Value: 'none'
+39id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 3.2877276772399777
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 3
+  classifier:random_forest:min_samples_split, Value: 6
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.0059197487245511455
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'False'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'min/max'
+40id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.0465743942311856
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 5
+  classifier:gradient_boosting:max_features, Value: 3.4139659236141635
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 19
+  classifier:gradient_boosting:min_samples_split, Value: 2
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 0.9895018843965072
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.0008592479870644692
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'False'
+  rescaling:__choice__, Value: 'min/max'
+41id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 1.0
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.0001
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'nystroem_sampler'
+  preprocessor:nystroem_sampler:gamma, Value: 0.0999999999999999
+  preprocessor:nystroem_sampler:kernel, Value: 'rbf'
+  preprocessor:nystroem_sampler:n_components, Value: 100
+  rescaling:__choice__, Value: 'standardize'
+42id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME'
+  classifier:adaboost:learning_rate, Value: 1.10482542901197
+  classifier:adaboost:max_depth, Value: 2
+  classifier:adaboost:n_estimators, Value: 246
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'False'
+  preprocessor:polynomial:interaction_only, Value: 'True'
+  rescaling:__choice__, Value: 'min/max'
+43id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'False'
+  classifier:extra_trees:criterion, Value: 'gini'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 3.9543782679924346
+  classifier:extra_trees:min_samples_leaf, Value: 3
+  classifier:extra_trees:min_samples_split, Value: 11
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.002922028971406086
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'manhattan'
+  preprocessor:feature_agglomeration:linkage, Value: 'complete'
+  preprocessor:feature_agglomeration:n_clusters, Value: 226
+  preprocessor:feature_agglomeration:pooling_func, Value: 'max'
+  rescaling:__choice__, Value: 'standardize'
+44id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'False'
+  classifier:extra_trees:criterion, Value: 'gini'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 1.0
+  classifier:extra_trees:min_samples_leaf, Value: 1
+  classifier:extra_trees:min_samples_split, Value: 2
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'False'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 1.0
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 1
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 2
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'none'
+45id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 1.294493164022553
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 11
+  classifier:random_forest:min_samples_split, Value: 18
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.0010924728997959144
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'cosine'
+  preprocessor:feature_agglomeration:linkage, Value: 'complete'
+  preprocessor:feature_agglomeration:n_clusters, Value: 385
+  preprocessor:feature_agglomeration:pooling_func, Value: 'max'
+  rescaling:__choice__, Value: 'min/max'
+46id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'False'
+  classifier:extra_trees:criterion, Value: 'gini'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 3.393921778795739
+  classifier:extra_trees:min_samples_leaf, Value: 1
+  classifier:extra_trees:min_samples_split, Value: 18
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.0001462460979232163
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'True'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 2.6936404735822848
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 1
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 8
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'standardize'
+47id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'passive_aggressive'
+  classifier:passive_aggressive:C, Value: 0.07868575794749325
+  classifier:passive_aggressive:fit_intercept, Constant: 'True'
+  classifier:passive_aggressive:loss, Value: 'squared_hinge'
+  classifier:passive_aggressive:n_iter, Value: 612
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.0009658102178398646
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'manhattan'
+  preprocessor:feature_agglomeration:linkage, Value: 'average'
+  preprocessor:feature_agglomeration:n_clusters, Value: 111
+  preprocessor:feature_agglomeration:pooling_func, Value: 'max'
+  rescaling:__choice__, Value: 'min/max'
+48id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME.R'
+  classifier:adaboost:learning_rate, Value: 0.3584959962884496
+  classifier:adaboost:max_depth, Value: 2
+  classifier:adaboost:n_estimators, Value: 230
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.3325075358426722
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'manhattan'
+  preprocessor:feature_agglomeration:linkage, Value: 'average'
+  preprocessor:feature_agglomeration:n_clusters, Value: 270
+  preprocessor:feature_agglomeration:pooling_func, Value: 'median'
+  rescaling:__choice__, Value: 'min/max'
+49id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'False'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 3.0533389771726194
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 12
+  classifier:random_forest:min_samples_split, Value: 12
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'False'
+  preprocessor:polynomial:interaction_only, Value: 'True'
+  rescaling:__choice__, Value: 'none'
+50id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'extra_trees'
+  classifier:extra_trees:bootstrap, Value: 'False'
+  classifier:extra_trees:criterion, Value: 'entropy'
+  classifier:extra_trees:max_depth, Constant: 'None'
+  classifier:extra_trees:max_features, Value: 1.7142905473322154
+  classifier:extra_trees:min_samples_leaf, Value: 1
+  classifier:extra_trees:min_samples_split, Value: 6
+  classifier:extra_trees:min_weight_fraction_leaf, Constant: 0.0
+  classifier:extra_trees:n_estimators, Constant: 100
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:minimum_fraction, Value: 0.0029725722683364496
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'False'
+  preprocessor:polynomial:interaction_only, Value: 'True'
+  rescaling:__choice__, Value: 'min/max'
+51id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'liblinear_svc'
+  classifier:liblinear_svc:C, Value: 0.27324913080354707
+  classifier:liblinear_svc:dual, Constant: 'False'
+  classifier:liblinear_svc:fit_intercept, Constant: 'True'
+  classifier:liblinear_svc:intercept_scaling, Constant: 1
+  classifier:liblinear_svc:loss, Value: 'squared_hinge'
+  classifier:liblinear_svc:multi_class, Constant: 'ovr'
+  classifier:liblinear_svc:penalty, Value: 'l2'
+  classifier:liblinear_svc:tol, Value: 0.007500254668360637
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'normalize'
+52id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'adaboost'
+  classifier:adaboost:algorithm, Value: 'SAMME'
+  classifier:adaboost:learning_rate, Value: 0.08921861937738111
+  classifier:adaboost:max_depth, Value: 8
+  classifier:adaboost:n_estimators, Value: 473
+  imputation:strategy, Value: 'median'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'polynomial'
+  preprocessor:polynomial:degree, Value: 2
+  preprocessor:polynomial:include_bias, Value: 'True'
+  preprocessor:polynomial:interaction_only, Value: 'True'
+  rescaling:__choice__, Value: 'standardize'
+53id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.1904028824916772
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 1
+  classifier:gradient_boosting:max_features, Value: 3.6850810159217735
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 10
+  classifier:gradient_boosting:min_samples_split, Value: 18
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 0.8401742752755341
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:use_minimum_fraction, Value: 'False'
+  preprocessor:__choice__, Value: 'no_preprocessing'
+  rescaling:__choice__, Value: 'standardize'
+54id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'gradient_boosting'
+  classifier:gradient_boosting:learning_rate, Value: 0.1
+  classifier:gradient_boosting:loss, Constant: 'deviance'
+  classifier:gradient_boosting:max_depth, Value: 3
+  classifier:gradient_boosting:max_features, Value: 1.0
+  classifier:gradient_boosting:max_leaf_nodes, Constant: 'None'
+  classifier:gradient_boosting:min_samples_leaf, Value: 1
+  classifier:gradient_boosting:min_samples_split, Value: 2
+  classifier:gradient_boosting:min_weight_fraction_leaf, Constant: 0.0
+  classifier:gradient_boosting:n_estimators, Value: 100
+  classifier:gradient_boosting:subsample, Value: 1.0
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.0009034853870688868
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'extra_trees_preproc_for_classification'
+  preprocessor:extra_trees_preproc_for_classification:bootstrap, Value: 'False'
+  preprocessor:extra_trees_preproc_for_classification:criterion, Value: 'gini'
+  preprocessor:extra_trees_preproc_for_classification:max_depth, Constant: 'None'
+  preprocessor:extra_trees_preproc_for_classification:max_features, Value: 1.0
+  preprocessor:extra_trees_preproc_for_classification:min_samples_leaf, Value: 1
+  preprocessor:extra_trees_preproc_for_classification:min_samples_split, Value: 2
+  preprocessor:extra_trees_preproc_for_classification:min_weight_fraction_leaf, Constant: 0.0
+  preprocessor:extra_trees_preproc_for_classification:n_estimators, Constant: 100
+  rescaling:__choice__, Value: 'none'
+55id
+Configuration:
+  balancing:strategy, Value: 'none'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 0.6220329970704515
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 6
+  classifier:random_forest:min_samples_split, Value: 8
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'mean'
+  one_hot_encoding:minimum_fraction, Value: 0.0001599912400566043
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'feature_agglomeration'
+  preprocessor:feature_agglomeration:affinity, Value: 'cosine'
+  preprocessor:feature_agglomeration:linkage, Value: 'average'
+  preprocessor:feature_agglomeration:n_clusters, Value: 309
+  preprocessor:feature_agglomeration:pooling_func, Value: 'mean'
+  rescaling:__choice__, Value: 'min/max'

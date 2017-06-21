@@ -1,0 +1,220 @@
+32id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+33id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+34id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+35id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+36id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+26id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+27id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+28id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+29id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+30id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
+31id
+Configuration:
+  balancing:strategy, Value: 'weighting'
+  classifier:__choice__, Value: 'random_forest'
+  classifier:random_forest:bootstrap, Value: 'True'
+  classifier:random_forest:criterion, Value: 'gini'
+  classifier:random_forest:max_depth, Constant: 'None'
+  classifier:random_forest:max_features, Value: 2.7414908133270646
+  classifier:random_forest:max_leaf_nodes, Constant: 'None'
+  classifier:random_forest:min_samples_leaf, Value: 18
+  classifier:random_forest:min_samples_split, Value: 2
+  classifier:random_forest:min_weight_fraction_leaf, Constant: 0.0
+  classifier:random_forest:n_estimators, Constant: 100
+  imputation:strategy, Value: 'most_frequent'
+  one_hot_encoding:minimum_fraction, Value: 0.29284573159917554
+  one_hot_encoding:use_minimum_fraction, Value: 'True'
+  preprocessor:__choice__, Value: 'pca'
+  preprocessor:pca:keep_variance, Value: 0.6167878993687326
+  preprocessor:pca:whiten, Value: 'False'
+  rescaling:__choice__, Value: 'none'
